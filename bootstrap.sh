@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 kubectl apply -f .infrastructure/namespace.yml
 kubectl apply -f .infrastructure/pv.yml
 kubectl apply -f .infrastructure/configMap.yml
